@@ -21,7 +21,8 @@
 		echo "<center>";		
 		echo "<b>PRICE<b><br/>" . $row["price"] . "<br/><br/>";
 		echo "<b>QUANTITY<b><br/>" . $row["quantity_remaining"] . "<br/><br/>";
-		echo "<b>DESCRIPTION<b><br/><br/>" . $row["description"] . "<br/>";
+		echo "<b>DESCRIPTION<b><br/><br/>" . $row["description"] . "<br/><br /><br />";		
+		echo '<a href="product_detail.php?product_id=' . $row["id"] . '">SELECT PRODUCT</a>';
 		echo "</center>";
 		echo "</div>";
 		echo "</div>";
